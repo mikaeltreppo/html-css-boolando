@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 /*debug*/
+body{
+    max-width: 1170;
+}
+
 header {
     height: 50px;
     background-color: #FF6900;
@@ -11,7 +15,6 @@ header {
     width: 100%;
     z-index: 10;
 }
-
 .head-container {
     height: 100%;
     display: flex;
@@ -55,6 +58,7 @@ header {
     margin: auto;
     display: flex;
     padding-top: 100px;
+    padding-bottom: 40px;
     flex-wrap: wrap;
 }
 
@@ -146,4 +150,33 @@ a{
     text-decoration: line-through;
     font-size: 13px;
     padding-left: 10px;
+}
+
+footer{
+    background-color: #1A1A1A;
+    height: 75px;
+}
+.footer-container{
+    margin: auto;
+    display: flex;
+    width: 70%;
+    color: white;
+   justify-content: space-between;
+   padding: 0px 15px;
+ 
+}
+.info-aziendali, .social{
+    padding-top: 20px;
+}
+footer i{
+    padding: 5px;
+    
+}
+.boolando{
+    font-size: 20px;
+    font-weight: bold;
+}
+.legal{
+    font-size: 12px;
+    padding-top: 10px;
 }
