@@ -61,7 +61,7 @@ header {
 .card {
     width: calc(100% / 3);
     height: 500px;
-    padding: 20px;
+    padding: 5px 15px;
 }
 
 
@@ -130,6 +130,11 @@ header {
 .info.description{
     font-size: 15px;
     font-weight: bold;
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
 
 .price-red{
