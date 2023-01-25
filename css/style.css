@@ -7,14 +7,54 @@
 
 
 
+.debug .columns{background-color: brown;
+    border: 1px dashed black;
+    height: 400px;
+}
 
+.debug .card{
+  
+    width: 100%;
+    height: 100%;
+}
+
+.debug .card-img{
+    height: 80%;
+    width: 100%;
+    border: dashed green 1px;
+}
+.debug .information{
+    height: 20%;
+    width: 100%;
+    border: dashed 1px yellow;
+}
+
+.debug .percentuale{
+    height: 20px;
+    width: 25%;
+    border: solid lime 1px;
+
+}
+
+.debug .heart{
+    width: 30px;
+    height: 35px;
+    border: solid 1px limegreen;
+    position: absolute;
+    top:5px;
+    right: 0px;
+}
+
+.debug .info{
+    height: calc(100% / 3);
+    border: solid red 1px;
+}
 /*debug*/
 header {
     height: 50px;
     background-color: #FF6900;
     position: fixed;
     width: 100%;
-    margin-bottom: 50px;
 }
 
 .head-container {
@@ -51,4 +91,27 @@ header {
 
 .img-logo {
     width: 30%;
+}
+/*start main*/
+.columns{
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.main-container{
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.card-img{
+    position: relative;
+}
+.percentuale{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
 }
