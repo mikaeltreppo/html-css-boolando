@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*debug*/
-body{
+body {
     max-width: 1170;
 }
 
@@ -15,14 +16,15 @@ header {
     width: 100%;
     z-index: 10;
 }
+
 .head-container {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
     max-width: 1170px;
     margin: auto;
+    padding: 15px;
 }
 
 .head {
@@ -53,25 +55,26 @@ header {
 
 /*start main*/
 .main-container {
-    width: 70%;
+
     max-width: 1170px;
+    min-width: 300px;
     margin: auto;
     display: flex;
     padding-top: 100px;
     padding-bottom: 40px;
     flex-wrap: wrap;
+
 }
 
 .card {
     width: calc(100% / 3);
-    height: 500px;
     padding: 5px 15px;
 }
 
 
 .card-img {
     position: relative;
-    height: 80%;
+
 }
 
 .percentuale {
@@ -83,30 +86,36 @@ header {
 
 .img {
     width: 100%;
-    height: 100%;
-    position: absolute;
+    position: relative;
 
 }
 
 .img-sotto {
-    z-index: -1;
-}
-
-.img-sopra:hover {
     display: none;
 }
 
-.percentage, .eco{
+.card-img:hover .img-sopra {
+    display: none;
+}
+
+.card-img:hover .img-sotto {
+    display: block;
+}
+
+.percentage,
+.eco {
     padding: 5px;
     font-size: 11px;
     margin-right: 3px;
     font-weight: bold;
     color: white;
 }
-.rosso{
+
+.rosso {
     background-color: red;
 }
-.verde{
+
+.verde {
     background-color: green;
 }
 
@@ -122,61 +131,69 @@ header {
     right: 0px;
     font-size: 20px;
 }
-.heart:hover{
+
+.heart:hover {
     color: red;
 }
 
-.info.brand{
+.info.brand {
     font-size: 12px;
     font-weight: 200;
 }
 
-.info.description{
+.info.description {
     font-size: 15px;
     font-weight: bold;
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
 }
 
-.price-red{
+.price-red {
     color: red;
     font-weight: bold;
     font-size: 13px;
 }
-.price-barrato{
+
+.price-barrato {
     text-decoration: line-through;
     font-size: 13px;
     padding-left: 10px;
 }
 
-footer{
+footer {
     background-color: #1A1A1A;
     height: 75px;
 }
-.footer-container{
+
+.footer-container {
     margin: auto;
     display: flex;
-    width: 70%;
+    max-width: 1170px;
     color: white;
-   justify-content: space-between;
-   padding: 0px 15px;
- 
+    justify-content: space-between;
+    padding: 0px 15px;
+
 }
-.info-aziendali, .social{
+
+.info-aziendali,
+.social {
     padding-top: 20px;
 }
-footer i{
+
+footer i {
     padding: 5px;
-    
+
 }
-.boolando{
+
+.boolando {
     font-size: 20px;
     font-weight: bold;
 }
-.legal{
+
+.legal {
     font-size: 12px;
     padding-top: 10px;
 }
