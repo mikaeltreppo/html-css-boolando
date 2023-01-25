@@ -68,12 +68,13 @@ header {
 
 .card {
     width: calc(100% / 3);
-    padding: 5px 15px;
+    padding: 5px 15px; padding-bottom: 20px;
 }
 
 
 .card-img {
     position: relative;
+   
 
 }
 
